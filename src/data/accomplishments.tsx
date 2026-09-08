@@ -91,19 +91,6 @@ export const accomplishments : AccomplishmentType[] = [
         moreInfo: <CS198Content/>
     },
     {
-        title: <a href='https://mirandali707.github.io/nonsense_newspapers/'>Nonsense Newspapers</a>,
-        description: "Trained a GAN to generate realistic-looking but meaningless newspaper images as an artistic work intended to invoke a sense of simultaneous familiarity and foreignness, and made a physical zine.",
-        start: 'September 2020',
-        end: 'December 2020',
-        tags: ['art', 'ai'],
-        image: <StaticImage
-            src="../images/5_gen_96.jpg"
-            alt="An AI-generated newspaper, vaguely spooky looking, with columns and headlines that are all nonsense."
-            placeholder="blurred"
-            layout="constrained"
-        />
-    },
-    {
         title: <a href='https://law.stanford.edu/education/only-at-sls/law-policy-lab/practicums-2022-2023/governance-and-regulation-of-emerging-technologies-809a/'>Policy Lab</a>,
         role: 'Contributor',
         description: "Authored 27 page report (available on request) on the impact of generative AI on education for Stanford Law School Policy Lab on Governance and Regulation of Emerging Technologies. The report will be synthesized with other reports to inform policy recommendations regarding generative AI.",

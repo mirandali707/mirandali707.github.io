@@ -61,7 +61,7 @@ const IntroHeader = () => {
             I'm a second-year Master's student at the MIT Media Lab, in the <Link href='https://www.media.mit.edu/groups/personal-robots/overview/'>Personal Robots Group</Link>.
             I also work closely with <Link href='https://www.mit.edu/~abobu/'>Andreea Bobu</Link>, <Link href='https://arvindsatya.com/'>Arvind Satyanarayan</Link>,
             and <Link href='https://crystaljjlee.com/'>Crystal Lee</Link>.
-            I study the design of intelligent, robotic tools that augment people in creative and otherwise open-ended tasks. I use long-term qualitative study of how experienced artists relate to and through their tools to inform technical research on learning and evaluating aligned representations for human-machine co-adaptation.
+            I study the design of intelligent, robotic tools that augment people in creative and otherwise open-ended tasks. I conduct ethnographic research with experienced artists to understand how they relate to and through their tools. Those qualitative findings inform my technical work: learning and evaluating aligned representations for human-machine co-adaptation, and designing and fabricating creative tools.
           </Paragraph>
           <Paragraph>
             Before MIT, I studied Computer Science (B.S. / M.S.) at Stanford University, where I was lucky to work with <Link href='https://stanford.edu/~cpiech/bio/index.html'>Chris Piech</Link> and teach CS through <Link href='https://cs198.stanford.edu/web'>CS198</Link> and <Link href='https://codeinplace.stanford.edu/'>Code in Place</Link>.
