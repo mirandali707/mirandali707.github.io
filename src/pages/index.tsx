@@ -41,11 +41,10 @@ const Home = () => {
         </Suspense>
       </Content>
       <Footer style={{ textAlign: 'center', backgroundColor:"#FFFCFA" }}>
-        I made this website myself using Gatsby, React, Ant Design, and TypeScript.
-        Anyways, if you've come all this way, you may as well say hello... (☞ﾟヮﾟ)☞ &nbsp;
-        <Link href='https://www.linkedin.com/in/miranda-li-b83859124/'>Linkedin</Link>
+        (☞ﾟヮﾟ)☞ &nbsp;
+        <Link href='mailto:m1randa@mit.edu'>Email</Link>
         &nbsp;⟡&nbsp;
-        <Link href='mailto:mirandal@stanford.edu'>Email</Link>
+        <Link href='https://www.linkedin.com/in/miranda-li-b83859124/'>Linkedin</Link>
       </Footer>
     </Layout>
     </ConfigProvider>
