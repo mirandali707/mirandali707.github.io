@@ -53,10 +53,15 @@ const IntroHeader = () => {
   return (
   <Row gutter={24} justify="space-around" align="middle">
       <Col span={16}>
-          <Title>Hi, I'm Miranda ₊ ⊹ ⟡</Title>
+          <Title>Miranda Li</Title>
           <Paragraph>
-              I'm a student at Stanford studying computer science (B.S. '23, M.S. '25).
-              Through my <Link href="#research">research</Link> and <Link href="#experience">work</Link>, I aim to use technology to (A) facilitate positive human-to-human social outcomes to close the digital divide and to (B) promote human-machine collaboration to enhance accessibility and expertise for non-technical users and under-resourced populations. I am especially interested in education because it both exemplifies existing inequities in tech literacy and offers the potential to bridge them.
+            I'm a second-year Master's student at the MIT Media Lab, in the <Link href='https://www.media.mit.edu/groups/personal-robots/overview/'>Personal Robots Group</Link>.
+            I also work closely with <Link href='https://www.mit.edu/~abobu/'>Andreea Bobu</Link>, <Link href='https://arvindsatya.com/'>Arvind Satyanarayan</Link>,
+            and <Link href='https://crystaljjlee.com/'>Crystal Lee</Link>.
+            I study the design of intelligent, robotic tools that augment people in creative and otherwise open-ended tasks. I use long-term qualitative study of how experienced artists relate to and through their tools to inform technical research on learning and evaluating aligned representations for human-machine co-adaptation.
+          </Paragraph>
+          <Paragraph>
+            Before MIT, I studied Computer Science (B.S. / M.S.) at Stanford University, where I was lucky to work with <Link href='https://stanford.edu/~cpiech/bio/index.html'>Chris Piech</Link> and teach CS through <Link href='https://cs198.stanford.edu/web'>CS198</Link> and <Link href='https://codeinplace.stanford.edu/'>Code in Place</Link>.
           </Paragraph>
           <Paragraph>
               Also, <Link href="/art">my art practice</Link> is very important to me.
@@ -64,7 +69,7 @@ const IntroHeader = () => {
           <Paragraph>
           <Link href='https://www.linkedin.com/in/miranda-li-b83859124/'>Linkedin</Link>
           &nbsp;⟡&nbsp;
-          <Link href='mailto:mirandal@stanford.edu'>Email</Link>
+          <Link href='mailto:m1randa@mit.edu'>Email</Link>
           &nbsp;⟡&nbsp;
           <Link href='https://github.com/mirandali707'>Github</Link>
           </Paragraph>
