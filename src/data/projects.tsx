@@ -59,16 +59,22 @@ export const projects = [
             {text: "making of, part 2", url: "https://fab.cba.mit.edu/classes/863.25/people/MirandaLi/pages/week13.html"}
         ],
     },
+    // {
+    //     title: "Bug or artistic feature? Scaling assessment and feedback of creative student-authored graphics programs",
+    //     description: "Final project for Stanford CS229: Machine Learning (fall 2023), taught by Andrew Ng",
+    //     links: [
+    //         {text: "report", url: "CS_229_Final_Report.pdf"}
+    //     ],
+    //     award: "Best Project Award"
+    // },
     {
-        title: "Bug or artistic feature? Scaling assessment and feedback of creative student-authored graphics programs",
-        description: "Final project for Stanford CS229: Machine Learning (fall 2023), taught by Andrew Ng",
-        url: "CS_229_Final_Report.pdf",
-        award: "Best Project Award"
-    },
-    {
-        title: <a href='https://mirandali707.github.io/nonsense_newspapers/'>Nonsense Newspapers</a>,
+        title: "Nonsense Newspapers",
         description: "Trained a GAN on historical newspaper front pages and authored digital + physical zine.",
-        url: "https://mirandali707.github.io/nonsense_newspapers/",
+        links: [
+            {text: "overview", url: "https://mirandali707.github.io/nonsense_newspapers/"},
+            {text: "report", url: "https://mirandali707.github.io/nonsense_newspapers/CS230_Final_Report.pdf"},
+            {text: "digital zine", url: "https://mirandali707.github.io/nonsense_newspapers/zine.html"}
+        ],
         image: <StaticImage
             src="../images/5_gen_96.jpg"
             alt="An AI-generated newspaper, vaguely spooky looking, with columns and headlines that are all nonsense."
