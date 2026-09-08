@@ -11,6 +11,10 @@ body,
     margin-bottom: 16px; /* Adjust the spacing as needed */
 }
 
+.projects-list > *:not(:last-child) {
+    margin-bottom: 16px; /* Adjust the spacing as needed */
+}
+
 .artworks-list {
     display: flex;
     flex-flow: row wrap;

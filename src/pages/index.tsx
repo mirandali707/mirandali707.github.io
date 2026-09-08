@@ -11,6 +11,7 @@ import Loading from '../components/Loading';
 const TagFilterSelect = lazy(() => import('../components/TagFilterSelect'));
 const FilterableAccomplishments = lazy(() => import('../components/FilterableAccomplishments'));
 const PublicationsList = lazy(() => import('../components/PublicationsList'));
+const ProjectsList = lazy(() => import('../components/ProjectsList'));
 const AnyOrAllToggle = lazy(() => import('../components/AnyOrAllToggle'));
 
 const Home = () => {
@@ -27,6 +28,8 @@ const Home = () => {
           <IntroHeader />
           <Divider dashed />
           <Research />
+          <Divider dashed />
+          <Projects />
           <Divider dashed />
           <Experience 
             activeTags={activeTags}
@@ -94,6 +97,15 @@ const Research = () => {
     <Title id="research" level={3}>Research</Title>
     <Row>
       <PublicationsList/>
+    </Row>
+  </>
+}
+
+const Projects= () => {
+  return <>
+    <Title id="projects" level={3}>Projects</Title>
+    <Row>
+      <ProjectsList/>
     </Row>
   </>
 }
