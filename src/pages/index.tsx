@@ -11,6 +11,7 @@ import Loading from '../components/Loading';
 const TagFilterSelect = lazy(() => import('../components/TagFilterSelect'));
 const FilterableAccomplishments = lazy(() => import('../components/FilterableAccomplishments'));
 const PublicationsList = lazy(() => import('../components/PublicationsList'));
+const ExperienceList = lazy(() => import('../components/ExperienceList'));
 const ProjectsList = lazy(() => import('../components/ProjectsList'));
 const AnyOrAllToggle = lazy(() => import('../components/AnyOrAllToggle'));
 
@@ -118,11 +119,12 @@ const Experience = ({
 }) => {
   return <>
     <Title id="experience" level={3}>Experience</Title>
-    <Row gutter={8}>
+    {/* <Row gutter={8}>
       <Col flex="auto"><TagFilterSelect setActiveTags={setActiveTags}/></Col>
       <Col><AnyOrAllToggle anyOrAll={anyOrAll} setAnyOrAll={setAnyOrAll}/></Col>
     </Row>
-    <Row><FilterableAccomplishments activeTags={activeTags} anyOrAll={anyOrAll}/></Row>
+    <Row><FilterableAccomplishments activeTags={activeTags} anyOrAll={anyOrAll}/></Row> */}
+    <ExperienceList/>
   </>
 }
 
