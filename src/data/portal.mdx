@@ -1,0 +1,21 @@
+---
+title: "A PORTAL: Arbitrary PantOgRaph of Time and Light"
+breadcrumb: A PORTAL 
+slug: /portal
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h34WOi9jF8I?si=ZWXhkONV3-cW-Q-T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Woqe3vkRhY0?si=KLMCX6nk7JTV_cV6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X_oRAMgyNjI?si=jlUloa9S4qXbwqLq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+Please see my slides for more details: [portal slides](https://docs.google.com/presentation/d/1z46_Pv9Ch0bHi4bm5otlHNW4-C8iDeEUrpPJ8zOh6mI/edit?usp=drive_link)
+
+For my final project for Zach Lieberman's Drawing++ course I built the first half of my vision for a **cyborg pantograph** – a device which encodes physical gesture into a digital representation (by reducing the information substantially), then decodes that digital representation back into the physical world, as a (scaled, distorted) version of the original gesture. Conceptually, I am interested in how the symbolic / digital / unreal metabolizes and regurgitates (receives and influences) the real. Every day, countless times, I enter the metaverse and emerge again, changed. My body makes a mark in mathematical space and the mathematical space marks me back. I am interested in glitches and artifacts – the sum of all the tiny invisible hard boundaries inherent in the world of pixels and floating point precision. Too often, we forget about rasterization, and we believe in the illusion that the digital world is the same as the physical one. They are distinct. For one, I am not 4 inches tall. I am not speaking; you are staring at lights and hallucinating in your own voice. But I digress. As a cyborg myself, I am interested in making a pantograph with all the affordances us cyborgs have come to expect: data in a compressed format, programmability, infinite zoom. (I have completed my best attempt at this task in this project.) As a cyborg myself, I want to subsequently bring these affordances back into the pesky, infinite-dimensional Real World where I can touch them again. (I will do this part next semester, stay tuned).
+
+## Tech demo description
+
+> In class, Prof. Zach Lieberman said something like: "most art + technology projects are either an art project or a tech demo, not both." Here is the tech demo version of this art project.
+
+I built a physical device which uses two draw-wire encoders with both ends attached to encode each point of a line as the intersection of two circles with varying radii. I pipe sensor readings from Serial port to Python RPC to Websocket and finally to a static web UI which reinterprets this data back into the Cartesian plane, as a p5.js sketch. My interface allows one to (1) record and playback decoded gestures made from the physical instrument (2) interpolate between two gestures using the intersection-of-two-circles model.  

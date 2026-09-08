@@ -9,11 +9,7 @@ const { Text, Paragraph } = Typography;
 const ProjectCard = ({ key, project}: { key: any, project: ProjectType}) => {
     return (
         <HorizontalCard key={key} image={project.image}>
-            <Text strong>{project.title}
-                {project.url && <a href={project.url} target="_blank" rel="noreferrer noopener">
-                    <LinkOutlined style={{marginLeft: '0.5rem'}}/>
-                </a>}
-            </Text>
+            <Text strong>{project.title}</Text>
             <Paragraph style={{ marginBottom: 0 }}>
                 {project.description}
                 {project.award && <>
@@ -21,6 +17,14 @@ const ProjectCard = ({ key, project}: { key: any, project: ProjectType}) => {
                     <Text type="success">⟡ {project.award}</Text>
                 </>}
             </Paragraph>
+            {project.links && <Paragraph style={{ marginBottom: 0 }}>
+                {project.links.map((link, idx) => (
+                    <React.Fragment key={idx}>
+                        {idx > 0 && " ⟡ "}
+                        <a href={link.url} target="_blank" rel="noreferrer noopener">{link.text}</a>
+                    </React.Fragment>
+                ))}
+            </Paragraph>}
         </HorizontalCard>
     )
 }
