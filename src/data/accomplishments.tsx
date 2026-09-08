@@ -19,11 +19,43 @@ export type AccomplishmentType = {
 
 export const accomplishments : AccomplishmentType[] = [
     {
+        title: <a href="https://computing.mit.edu/cross-cutting/social-and-ethical-responsibilities-of-computing/serc-scholars-program/">MIT Schwarzman College of Computing</a>,
+        role: 'SERC Scholar',
+        description: "Participated in a yearlong working group on art in the age of AI, through MIT's Social and Ethical Responsibilities of Computing (SERC) initiative.",
+        start: 'September 2025',
+        end: 'June 2026',
+        tags: ['art'],
+    },
+    {
+        title: <a href="https://aialignment.mit.edu/">MIT AI Alignment</a>,
+        role: 'Member',
+        description: "MIT student group on AI safety and alignment.",
+        start: 'January 2026',
+        end: 'Present',
+        tags: ['ai'],
+    },
+    {
+        title: <a href="https://www.media.mit.edu/posts/research-at-scale-2026/">Research@Scale</a>,
+        role: 'Resident',
+        description: "1-month research residency in Shenzhen, China, focused on manufacturing and hardware prototyping.",
+        start: 'January 2026',
+        end: 'January 2026',
+        tags: ['code', 'design', 'art'],
+    },
+    {
+        title: <a href="https://ambiguous-collaborators.github.io/">Stanford HAI student group</a>,
+        role: 'Student co-lead',
+        description: "Co-led the Ambiguous Collaboration Working Group, a Stanford HAI student group interested in interaction design, audiovisual performance, and computational aesthetics.",
+        start: 'September 2024',
+        end: 'June 2025',
+        tags: ['art'],
+    },
+    {
         title: 'California Community Colleges x Stanford Digital Education',
         role: 'Coordinator',
         description: "Invited panelist at the 2024 California Community Colleges Futures Summit, to speak on the development of CS 49, a hybrid course for California Community College students which adapts the Code in Place curriculum. Coordinating between Stanford and CCC faculty, developing course materials, and managing student success. ",
         start: 'March 2024',
-        end: 'Present',
+        end: 'June 2025',
         tags: ['cs-ed', 'code', 'teaching', 'work', 'leadership'],
         avatar:<StaticImage
                     src="../images/cip-logo.png"
@@ -37,7 +69,7 @@ export const accomplishments : AccomplishmentType[] = [
         role: 'Course Admin, Director of Head TAs, Developer... and more!',
         description: "Code in Place is a free, human-centered offering of the first half of CS106A, Stanford's intro Python course, which has served around 30k students worldwide. Please 'See more', as I've done a lot of work for this course!",
         start: 'March 2020 → May 2020, March 2021',
-        end: 'Present',
+        end: 'June 2025',
         tags: ['cs-ed', 'code', 'teaching', 'design', 'work', 'leadership'],
         avatar:<StaticImage
                     src="../images/cip-logo.png"
